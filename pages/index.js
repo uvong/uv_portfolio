@@ -42,7 +42,7 @@ export default function Home() {
           >
             <div className="rounded-full bg-white w-32 h-32 md:w-44 md:h-44 dark:bg-slate-800">
               <Image
-                src="/uyen.png"
+                src="/uyen.PNG"
                 alt="an avatar of uyen"
                 width={200}
                 height={200}
