@@ -12,8 +12,9 @@ import {
   FaGitSquare,
   FaDocker,
 } from "react-icons/fa";
-import uyen from "../public/uyen.png";
-import indigo from "../public/indigo.png";
+// import uyen from "../public/uyen.png";
+import uyen from "/public/uyen.png";
+import indigo from "/public/indigo.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
