@@ -12,9 +12,6 @@ import {
   FaGitSquare,
   FaDocker,
 } from "react-icons/fa";
-// import uyen from "../public/uyen.png";
-import uyen from "/public/uyen.png";
-import indigo from "/public/indigo.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -44,7 +41,12 @@ export default function Home() {
               bg-gradient-to-br from-teal-400/90 to-blue-400/90 w-36 h-36 md:w-48 md:h-48"
           >
             <div className="rounded-full bg-white w-32 h-32 md:w-44 md:h-44 dark:bg-slate-800">
-              <Image src={uyen} alt="an avatar of uyen" />
+              <Image
+                src="/uyen.png"
+                alt="an avatar of uyen"
+                width={200}
+                height={200}
+              />
             </div>
           </div>
           <div className="text-center p-10">
@@ -149,8 +151,10 @@ export default function Home() {
             </p>
             <div className="flex justify-center mx-auto my-4">
               <Image
-                src={indigo}
+                src="/indigo.png"
                 alt="Indigo logo"
+                width={200}
+                height={200}
                 className="rounded-lg absolute hover:opacity-0 hover:duration-200 hover:-z-99"
               />
               <div className="flex items-center justify-center w-[200px] h-[150px] bg-slate-900/90 text-white rounded-lg">
