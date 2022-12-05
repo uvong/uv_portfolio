@@ -85,7 +85,7 @@ export default function Home() {
             <p className="dark:text-white">
               Here are some of the technologies that I&apos;ve worked with
             </p>
-            <div className="flex justify-center text-4xl gap-4 m-4 text-gray-500">
+            <div className="flex flex-wrap justify-center text-3xl gap-4 m-4 text-gray-500">
               <a
                 href="https://www.python.org/"
                 target="_blank"
